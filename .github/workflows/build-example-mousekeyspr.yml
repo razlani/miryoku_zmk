@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["corne_left"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      shield: '["corne_left", "corne_right"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR\n#define MIRYOKU_LAYER_BASE \\n&kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \\nU_MT(LSHFT, A),    U_MT(LGUI, R),     U_MT(LCTRL, S),    U_MT(LALT, T),     &kp G,             &kp M,             U_MT(LALT, N),     U_MT(LCTRL, E),    U_MT(LGUI, I),     U_MT(LSHFT, O),     \\nU_MT(RALT, X),     &kp C,             &kp D,             &kp V,             U_LT(U_BUTTON, Z), &kp K,             &kp H,             &kp COMMA,         &kp DOT,   U_LT(U_BUTTON, SLASH),\\nU_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT(U_MOUSE, TAB), U_LT(U_FUN, RET), U_LT(U_NUM, BSPC), U_LT(U_SYM, DEL),  U_NP,              U_NP"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
