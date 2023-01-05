@@ -4,7 +4,7 @@
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LSHFT, A),    U_MT(LGUI, R),     U_MT(LCTRL, S),    U_MT(LALT, T),     &kp G,             &kp M,             U_MT(LALT, N),     U_MT(LCTRL, E),    U_MT(LGUI, I),     U_MT(LSHFT, O),     \
-U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             U_LT(U_BUTTON, Z), &kp K,             &kp H,             &kp COMMA,         &kp DOT,   U_LT(U_BUTTON, SLASH),\
+&kp X,             &kp C,             &kp D,             &kp V,             &kp Z,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT(U_MOUSE, TAB), U_LT(U_FUN, RET), U_LT(U_NUM, BSPC), U_LT(U_SYM, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
@@ -27,16 +27,15 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LSHFT,         &kp LGUI,          U_BTN1,            U_BTN2,        U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
+&kp LSHFT,         &kp LGUI,          U_BTN1,            U_BTN2,            U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &u_rgb_tog,        &u_rgb_eff,        &u_rgb_hui,        &u_rgb_sai,        &u_rgb_bri,        \
-&kp LSHFT,         &kp LGUI,         &kp LCTRL,         &kp LALT,         U_NA,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
-U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp B,              &u_rgb_tog,        &u_rgb_eff,        &u_rgb_hui,        &u_rgb_sai,        &u_rgb_bri,        \
+&kp A,             &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
+&u_to_U_BASE,      &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp Z,              &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
+U_NP,              U_NP,              &kp LSHFT,         &kp LCTRL,         &kp LALT,           &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
 
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
-#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
