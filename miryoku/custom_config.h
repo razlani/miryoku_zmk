@@ -37,5 +37,12 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &u_to_U_BASE,      &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp Z,              &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              &kp LSHFT,         &kp LCTRL,         &kp LALT,           &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
+#define MIRYOKU_LAYER_FUN \
+&kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LALT,          &kp LCTRL,         &kp LGUI,          &kp LSHFT,          \
+&kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp K_APP,         &kp SPC,           &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+
 
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
