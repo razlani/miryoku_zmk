@@ -33,7 +33,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_MEDIA \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,              &u_rgb_tog,        &u_rgb_eff,        &u_rgb_hui,        &u_rgb_sai,        &u_rgb_bri,        \
-&kp A,             &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
+&kp LSHFT,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
 &u_to_U_BASE,      &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp Z,              &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              &kp LSHFT,         &kp LCTRL,         &kp LALT,           &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
